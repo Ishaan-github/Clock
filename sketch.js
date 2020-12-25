@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(500, 500);
   angleMode(DEGREES);
 }
 
@@ -29,23 +29,23 @@ function draw() {
   push();
   rotate(secondAngle);
   stroke(255, 100, 155);
-  line(0, 0, 100, 0);
+  line(0, 0, 150, 0);
   pop();
   
   push();
   rotate(minuteAngle);
   stroke(150, 100, 255);
-  line(0, 0, 75, 0);
+  line(0, 0, 100, 0);
   pop();
   
   push();
   rotate(hourAngle);
   stroke(150, 255, 100);
-  line(0, 0, 50, 0);
+  line(0, 0, 80, 0);
   pop();
   
   stroke(255);
   point(0, 0);
   
-  ellipse(0, 0, 300, 300);
+  ellipse(0, 0, 350, 350);
 }
